@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+body{
+  background: #181d27;
+  color: aliceblue;
+}
+.header{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: start;
+    justify-items: center;
+    background-image: linear-gradient( #121926, rgba(0, 0, 0, 0.08));
+    position:absolute;
+    z-index: 5;
+    position: sticky;
+    top: 0px;
+}
+.header .nav{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 10px 10px 10px 19px;
+    text-decoration:black;
+}
+.nav-form{
+    display: inline-flex;
+    color: yellowgreen;
+}
+.search-container input{
+    width: 240px;
+    height: 32px;
+    font-size: 16px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color:transparent;
+    color: aliceblue;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    
+}
+.search-icon img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 20px;
+    top: 5px;;
+}
+
+/* .search-opt{
+    border: 2px solid black;
+    text-decoration: none;
+    width: auto;
+    padding: 5px;
+} */
+
+.btn1{
+    width: auto;
+    padding: 5px;
+    margin: 9px 10px 10px auto;
+}
+
+/* categories list */
+.trending-container{
+    z-index: 2;
+    position:absolute;
+    display: block;
+    width: 100vw;
+    height: 200px;
+    top: 550px;
+    /* background: rgb(24,29,39); */
+    background: linear-gradient(0deg, rgba(24,29,39,1) 0%, rgba(17,21,28,0.9260414615064776) 51%, rgba(0,0,0,0) 100%)
+}
+
+.cat-title{
+    margin: 0px 40px 15px 40px;
+    width: auto;
+    height: auto;
+}
+.cat-title h2{
+    margin: 5px 0px 10px 0px;
+}   
+
+.cat-list{
+    
+}
+.list-img{
+    display: flex;
+    justify-content: start;
+    justify-items: center;
+    list-style-type: none;
+    position: relative;
+
+}
+
+.list-img img{
+    
+    margin: 0px 15px 0px 0px;
+    width:200px;
+    height:250px;
+    border-radius: 4px;
+}
+.container{
+    display: flex;
+    position: relative;
+    top: 280px;
+}
+
+.footer{
+    display: flex;
+    position: relative;
+    top: 280px;
+    justify-items: center;
+    z-index: 19;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: yellowgreen;
+}
+.footer .footer1{
+
+}
+.footer-container{
+    display: flex;
+    margin: 40px;
+    padding: 20px;
+}
+}
+.footer .footer-block{
+    
+    margin: 0% 25%;
+    width: 100vw;
+
+}
+
+
+/* Media popup */
+
+.list-img .play-btn{
+    width:35px;
+    height: 35px;
+    position: absolute;
+    left:90px;
+    top:50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.list-img .play-btn .tr2{
+    width:35px;
+    height: 35px;
+    position: absolute;
+    left:200px;
+    top:50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.video-player{
+    width: 60%;
+    position: absolute;
+    left:20%;
+    top:14%;
+    /* transform: translate(-50%,-50%); */
+    display: none;
+    z-index: 2;
+
+}
+video:focus{
+    outline: none;
+}
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+/* drop down menu for user profile */
+
+
+/* Large rounded green border */
+hr.vert {
+    border: 10px solid green;
+    border-radius: 5px;
+  }
+
+
+  /* fotter redit */
+ 
